@@ -1,25 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
 
-export default class Result extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <View style={styles.score}>
-          <Text style={styles.scoreText}> Score </Text>
-        </View>
-        <View>
-          <Text style={styles.result}>You Have Scored 30%</Text>
-          <Image style={styles.banner} source={{ uri: "https://cdni.iconscout.com/illustration/free/preview/concept-of-seo-ranking-2040894-1721890.png?w=0&h=1400" }}></Image>
-        </View>
-        <View>
-          <TouchableOpacity style={styles.HomeButton}>
-            <Text style={styles.HomeButtonText}>Home</Text>
-          </TouchableOpacity>
-        </View>
+export default function Result({ route, navigation }) {
+  const { result } = route.params;
+  return (
+    <View style={styles.container}>
+      <View style={styles.score}>
+        <Text style={styles.scoreText}> Score </Text>
       </View>
-    );
-  }
+      <View>
+        <Text style={styles.result}>You Have Scored {result * 10}%</Text>
+        <Image style={styles.banner} source={{ uri: "https://cdni.iconscout.com/illustration/free/preview/concept-of-seo-ranking-2040894-1721890.png?w=0&h=1400" }}></Image>
+      </View>
+      <View>
+        <TouchableOpacity style={styles.HomeButton} onPress={() => navigation.navigate("Home")}>
+          <Text style={styles.HomeButtonText}>Home</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({

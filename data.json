@@ -1,0 +1,85 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the derivative of Acceleration with respect to time?",
+      "correct_answer": "Jerk",
+      "incorrect_answers": ["Shift", "Bump", "Slide"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many zeros are there in a googol?",
+      "correct_answer": "100",
+      "incorrect_answers": ["10", "1,000", "1,000,000"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What are the first 6 digits of the number &quot;Pi&quot;?",
+      "correct_answer": "3.14159",
+      "incorrect_answers": ["3.14169", "3.12423", "3.25812"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To the nearest whole number, how many radians are in a whole circle?",
+      "correct_answer": "6",
+      "incorrect_answers": ["3", "4", "5"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What Greek letter is used to signify summation?",
+      "correct_answer": "Sigma",
+      "incorrect_answers": ["Delta", "Alpha", "Omega"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the symbol for Displacement?",
+      "correct_answer": "&Delta;r",
+      "incorrect_answers": ["dr", "Dp", "r"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+      "correct_answer": "1.58 x 10^20",
+      "incorrect_answers": ["1.58 x 10^22", "1.58 x  10^18", "1.58 x 10^24"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many books are in Euclid&#039;s Elements of Geometry?",
+      "correct_answer": "13",
+      "incorrect_answers": ["8", "10", "17"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philospher?",
+      "correct_answer": "Bertrand Russel",
+      "incorrect_answers": ["Francis Bacon", "John Locke", "Alfred North Whitehead"]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which mathematician refused the Fields Medal?",
+      "correct_answer": "Grigori Perelman",
+      "incorrect_answers": ["Andrew Wiles", "Terence Tao", "Edward Witten"]
+    }
+  ]
+}
