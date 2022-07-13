@@ -8,7 +8,7 @@ export default function Result({ route, navigation }) {
       <View style={styles.score}>
         <Text style={styles.scoreText}> Score </Text>
       </View>
-      <View>
+      <View style={styles.bannerContainer}>
         <Text style={styles.result}>You Have Scored {result * 10}%</Text>
         <Image style={styles.banner} source={{ uri: "https://cdni.iconscout.com/illustration/free/preview/concept-of-seo-ranking-2040894-1721890.png?w=0&h=1400" }}></Image>
       </View>
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     paddingTop: 40,
     paddingHorizontal: 20,
     justifyContent: "space-between",
+    alignItems: "center",
     height: "100%",
   },
   score: {
@@ -47,6 +48,9 @@ const styles = StyleSheet.create({
     margin: 40,
     fontWeight: "600",
   },
+  bannerContainer: {
+    alignItems: "center",
+  },
   banner: {
     height: 300,
     width: 300,
@@ -57,6 +61,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 12,
     marginBottom: 20,
+    marginTop: 20,
   },
   HomeButtonText: {
     color: "#EAF2F8",
